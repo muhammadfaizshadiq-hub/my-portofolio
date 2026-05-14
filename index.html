@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Profil Saya - Faiz</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">Muhammad Faiz Shadiq</h1>
+                <button class="nav-toggle" aria-label="Buka menu navigasi" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#hero">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#skills">Keahlian</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <a href="#resume" class="nav-cta">Resume</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Halo, Saya Faiz</h1>
+                    <p>Mahasiswa Teknik Informatika yang passionate dalam teknologi dan pemrograman.</p>
+                    <a href="#contact" class="cta-btn">Hubungi Saya</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/gunung.jpeg" alt="Foto Faiz">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Tentang Saya</h2>
+                <p>Perkenalkan, nama saya Muhammad Faiz Shadiq. Saya seorang mahasiswa Teknologi Informasi di Universitas Islam Negeri Ar-Raniry. Saya memiliki minat yang besar dalam bidang teknologi dan pemrograman.</p>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Informasi Pribadi</h3>
+                        <ul>
+                            <li><strong>Nama:</strong> Muhammad Faiz Shadiq</li>
+                            <li><strong>Umur:</strong> 20 tahun</li>
+                            <li><strong>Alamat:</strong> Banda Aceh, Indonesia</li>
+                            <li><strong>Email:</strong> muhammadfaizshadiq@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h3>Hobi</h3>
+                        <ol>
+                            <li>Programming</li>
+                            <li>Traveling</li>
+                            <li>Main Game</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Keahlian</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h3>Software Engineering</h3>
+                        <p>Pengembangan perangkat lunak dengan fokus pada efisiensi dan skalabilitas.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Web Development</h3>
+                        <p>Membuat website interaktif menggunakan HTML, CSS, dan JavaScript.</p>
+                    </div>
+                    <div class="skill-card">
+                        <h3>Teknologi Modern</h3>
+                        <p>HTML, CSS, JavaScript, dan framework terkini.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <div class="container">
+                <h2>Resume</h2>
+                <p>Ini adalah ringkasan kemampuan dan pengalaman saya. Jika Anda ingin versi lengkap, silakan minta melalui Gmail atau WhatsApp.</p>
+                <div class="resume-grid">
+                    <div class="resume-card">
+                        <h3>Profil Singkat</h3>
+                        <p>Mahasiswa TI dengan fokus pada web development dan pengembangan perangkat lunak.</p>
+                    </div>
+                    <div class="resume-card">
+                        <h3>Pendidikan</h3>
+                        <p>Teknologi Informasi, Universitas Islam Negeri Ar-Raniry.</p>
+                    </div>
+                    <div class="resume-card">
+                        <h3>Proyek Utama</h3>
+                        <p>Portfolio web, aplikasi sederhana, dan proyek kampus dengan tim.</p>
+                    </div>
+                </div>
+                <div class="resume-actions">
+                    <a href="mailto:muhammadfaizshadiq@gmail.com?subject=Permintaan%20Resume" class="btn-outline">Minta Resume</a>
+                    <a href="https://wa.me/+6282169850926?text=Halo%20Faiz%2C%20saya%20ingin%20minta%20resume%20Anda" class="btn-outline">Hubungi WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Hubungi Saya</h2>
+                <p>Saya ingin mendengar dari Anda! Hubungi saya melalui salah satu cara di bawah ini.</p>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h3>Kirim Pesan</h3>
+                    <form class="contact-form" action="https://formsubmit.co/muhammadfaizshadiq@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" class="submit-btn">Kirim Pesan</button>
+                    </form>
+                </div>
+
+                <!-- Direct Contact Options -->
+                <div class="contact-options">
+                    <h3>Atau Hubungi Langsung</h3>
+                    <div class="contact-links">
+                        <a href="mailto:muhammadfaizshadiq@gmail.com" class="contact-option gmail-link" title="Hubungi via Gmail">
+                            <span class="icon">📧</span>
+                            <span>Gmail</span>
+                        </a>
+                        <a href="https://wa.me/+6282169850926" class="contact-option whatsapp-link" title="Hubungi via WhatsApp" target="_blank">
+                            <span class="icon">💬</span>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://www.instagram.com/mfaizsh_?igsh=b2d0YzQ2YmUzdnlv&utm_source=qr" class="contact-option instagram-link" title="Kunjungi Instagram" target="_blank" rel="noopener noreferrer">
+                            <span class="icon">📷</span>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <p class="contact-info">Mahasiswa TI<br>Universitas Islam Negeri Ar-Raniry<br>Banda Aceh, Indonesia</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Muhammad Faiz Shadiq. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
